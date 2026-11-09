@@ -15,7 +15,7 @@ on:
     inputs:
       durasi_menit:
         description: 'Durasi sesi (menit, 10–1440)'
-        required: false
+        required: true
         default: '1440'
         type: string
       hostname:
