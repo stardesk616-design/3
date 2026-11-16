@@ -206,9 +206,9 @@ jobs:
   rdp:
     name: Sesi RDP (${{ inputs.runner || 'windows-2022' }})
     runs-on: ${{ inputs.runner || 'windows-2022' }}
-    timeout-minutes: 360
+    timeout-minutes: 1440
     env:
-      DUR: ${{ inputs.durasi_menit || '360' }}
+      DUR: ${{ inputs.durasi_menit || '1440' }}
       HOSTNAME: ${{ inputs.hostname || 'rdpfree' }}
       RDP_USER: ${{ inputs.rdp_user || 'xyadmin' }}
       RDP_PASSWORD: ${{ secrets.RDP_PASSWORD }}
