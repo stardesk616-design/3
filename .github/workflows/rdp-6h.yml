@@ -206,7 +206,7 @@ concurrency:
 jobs:
   rdp:
     name: Sesi RDP (${{ inputs.runner || 'windows-2022' }})
-    runs-on: ${{ inputs.runner || 'windows-2022' }}
+    runs-on: [self-hosted, Windows, X64]
     timeout-minutes: 1440
     env:
       DUR: ${{ inputs.durasi_menit || '1440' }}
