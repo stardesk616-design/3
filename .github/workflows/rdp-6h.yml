@@ -137,6 +137,7 @@ on:
           - ubuntu-24.04
           - ubuntu-22.04
           - ubuntu-latest
+          - self-hosted
       linux_mode:
         description: 'Mode Linux (desktop = XFCE4 GUI XRDP :3389, polos = Server SSH Tanpa XFCE4 :22/:3389)'
         required: false
