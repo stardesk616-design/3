@@ -5,19 +5,19 @@
   "os_build": "10.0.26100",
   "os_style": "Native Windows",
   "hardware": {
+    "ram_gb": 16.0,
     "disk_free_gb": 26.8,
-    "cpu_threads": 4,
-    "ram_gb": 16.0
+    "cpu_threads": 4
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-11-17T08:04:23Z",
-  "expires_at": "2026-11-17T13:46:23Z",
+  "started_at": "2026-11-18T07:49:24Z",
+  "expires_at": "2026-11-18T13:31:24Z",
   "duration_menit": 342,
   "run_id": "42901959837",
-  "run_attempt": "4",
+  "run_attempt": "5",
   "run_number": "6",
   "run_url": "https://github.com/stardesk616-design/3/actions/runs/42901959837",
   "mode": "bersih+win10",
@@ -39,35 +39,35 @@
     "net35": "sudah ada"
   },
   "persist": {
-    "profile": "C:\\Users\\xyadmin",
     "restored": true,
-    "files": 134,
+    "files": 135,
+    "profile": "C:\\Users\\xyadmin",
     "source": "xyrdp-state.7z.enc"
   },
   "storage": {
     "status": "ok",
     "mode": "boost-ringan",
-    "before_gb": 25.99,
-    "after_gb": 43.44,
-    "gained_gb": 17.45,
+    "before_gb": 25.82,
+    "after_gb": 43.25,
+    "gained_gb": 17.43,
     "removed_targets": 31,
     "drives": [
       {
+        "used_gb": 106.64,
         "letter": "C",
-        "size_gb": 149.89,
-        "used_gb": 106.45,
-        "free_gb": 43.44
+        "free_gb": 43.25,
+        "size_gb": 149.89
       },
       {
-        "letter": "D",
-        "size_gb": 219.98,
         "used_gb": 0.14,
-        "free_gb": 219.84
+        "letter": "D",
+        "free_gb": 219.84,
+        "size_gb": 219.98
       }
     ],
     "game_dir": "D:\\Games (disarankan untuk GTA)",
     "note": "Cleanup selesai. gained_gb adalah perubahan ruang aktual, bukan kapasitas yang dijanjikan. Target terkunci bisa tersisa.",
-    "updated_at": "2026-11-17T08:11:30.0604432Z"
+    "updated_at": "2026-11-18T07:56:00.2791978Z"
   },
   "fps_boost": {
     "status": "ok",
@@ -85,7 +85,7 @@
     "applied_count": 8,
     "elapsed_sec": 1.9,
     "note": "Tweak rendering RDP & scheduler OS. Tidak menaikkan FPS game 3D tanpa GPU fisik; Mesa3D/WARP tetap dipakai.",
-    "updated_at": "2026-11-17T08:11:32.2533987Z"
+    "updated_at": "2026-11-18T07:56:02.536756Z"
   },
   "win10": {
     "look": "ok",
@@ -102,58 +102,58 @@
     "microphone": "rdp_capture_enabled"
   },
   "samp": {
-    "dep_optin": true,
+    "webview2": true,
+    "directx9": true,
+    "samp_client": true,
+    "vc2015_x64": true,
     "directplay": true,
-    "playable": true,
+    "game_present": true,
     "vc2013_x64": true,
+    "vc2015_x86": true,
     "dgvoodoo_d3d9": true,
     "status": "runtimes-2026-ready",
-    "samp_client": true,
-    "vc2013_x86": true,
+    "playable": true,
     "fullscreen": true,
+    "vc2013_x86": true,
     "silentpatch": false,
-    "webview2": true,
-    "vc2015_x64": true,
-    "vc2015_x86": true,
-    "directx9": true,
-    "game_present": true
+    "dep_optin": true
   },
   "grafis": {
     "adapters": "Microsoft Hyper-V Video",
-    "vulkan": "lavapipe 1.3 (CPU)",
-    "mode": "software",
     "path": "C:\\XyRDP\\grafis\\mesa-x64",
+    "opengl": "4.6 (Mesa llvmpipe system-wide x64/x86 + OpenGL ES 3.2)",
+    "vulkan": "lavapipe 1.3 (CPU)",
     "mesa": "26.2.7",
-    "opengl": "4.6 (Mesa llvmpipe system-wide x64/x86 + OpenGL ES 3.2)"
+    "mode": "software"
   },
   "games": {
-    "minecraft_java": {
-      "tlauncher_jar": true,
-      "prismlauncher": true,
-      "opengl46": false,
-      "status": "ready",
-      "official_exe": true
+    "blender": {
+      "launcher": "C:\\Games\\Blender\\Launch-Blender.ps1",
+      "status": "ready"
+    },
+    "memu": {
+      "launcher": "C:\\Games\\MEmu\\Launch-MEmu.ps1",
+      "status": "ready"
+    },
+    "ets2": {
+      "launcher": "C:\\Games\\ETS2\\Launch-ETS2-Free.ps1",
+      "status": "ready"
     },
     "roblox": {
       "launcher": "C:\\Games\\Roblox\\Launch-Roblox-AntiVM.ps1",
-      "status": "installer_ready",
-      "catatan": "Instalasi resmi Roblox siap. VM dapat ditolak anti-cheat Roblox; tidak ada spoofing BIOS/bypass."
-    },
-    "ets2": {
-      "status": "ready",
-      "launcher": "C:\\Games\\ETS2\\Launch-ETS2-Free.ps1"
-    },
-    "blender": {
-      "status": "ready",
-      "launcher": "C:\\Games\\Blender\\Launch-Blender.ps1"
+      "catatan": "Instalasi resmi Roblox siap. VM dapat ditolak anti-cheat Roblox; tidak ada spoofing BIOS/bypass.",
+      "status": "installer_ready"
     },
     "fivem": {
-      "status": true,
-      "sound": true
+      "sound": true,
+      "status": true
     },
-    "memu": {
-      "status": "ready",
-      "launcher": "C:\\Games\\MEmu\\Launch-MEmu.ps1"
+    "minecraft_java": {
+      "prismlauncher": true,
+      "tlauncher_jar": true,
+      "opengl46": false,
+      "official_exe": true,
+      "status": "ready"
     }
   },
   "extras": {
@@ -189,19 +189,19 @@
   "akses": {
     "tunnel": {
       "port": 3389,
-      "address": "100.89.14.60:3389",
+      "status": "ok",
+      "address": "100.79.185.125:3389",
+      "selftest": "ok",
       "outside": "tailscale",
-      "status": "ok",
-      "host": "100.89.14.60",
-      "selftest": "ok"
+      "host": "100.79.185.125"
     },
-    "mode": "tailscale",
     "tailscale": {
+      "ip": "100.79.185.125",
       "hostname": "Jun",
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
       "status": "ok",
-      "magicdns": "jun-3.tail367899.ts.net.",
-      "ip": "100.89.14.60",
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL."
-    }
+      "magicdns": "jun-4.tail367899.ts.net."
+    },
+    "mode": "tailscale"
   }
 }
