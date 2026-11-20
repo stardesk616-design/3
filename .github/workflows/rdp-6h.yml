@@ -136,8 +136,7 @@ on:
           - windows-latest
           - ubuntu-24.04
           - ubuntu-22.04
-          - ubuntu-latest
-          - self-hosted
+          - ubuntu-lates 
       linux_mode:
         description: 'Mode Linux (desktop = XFCE4 GUI XRDP :3389, polos = Server SSH Tanpa XFCE4 :22/:3389)'
         required: false
@@ -206,7 +205,7 @@ concurrency:
 jobs:
   rdp:
     name: Sesi RDP (${{ inputs.runner || 'windows-2022' }})
-    runs-on: [self-hosted, Windows, X64]
+    runs-on: ${{ inputs.runner || 'windows-2022' }}
     timeout-minutes: 1440
     env:
       DUR: ${{ inputs.durasi_menit || '1440' }}
